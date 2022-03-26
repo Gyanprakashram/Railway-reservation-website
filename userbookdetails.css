@@ -1,0 +1,236 @@
+*
+{
+    margin: 0;
+    padding:0;
+ 
+}
+.header
+{
+    min-height: 100vh;
+    width:100%;
+    background-image:url("img/viewtrain.jpg");
+    
+    
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+ul{
+    width: 100%;
+    background-color:rgba(255,255,255,.8);
+}
+
+
+.nav-links
+{
+    flex:1;
+    text-align:right;
+    
+}
+
+
+.logo{
+    
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;    
+    color:rgb(139,69,19);
+    margin-top: 22px;
+    margin-left: 20px;
+    float:left;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding:40px 26px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav-links ul li a
+{
+    color:black;
+    text-decoration: none;
+    font-size:18px;
+   
+   
+
+   
+}
+.nav-links ul li::after
+{
+    content:"";
+    width: 0%;
+    height: 2px;
+    background:red;
+    display:block;
+    margin: auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after
+{
+    width: 100%;
+}
+.main-div
+{
+ 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center-div
+{
+    width: 80%;
+    height: 65vh;
+    
+    padding: 20px 0 0 30px;
+    border-radius: 20px;
+    
+}
+h1{
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    margin-top:-30px;
+    margin-bottom: 10px;
+}
+.center-div
+{
+    width: 80%;
+    height: 65vh;
+    
+    padding: 20px 0 0 30px;
+    border-radius: 20px;
+    
+}
+table
+{
+    border-collapse: collapse;
+   text-align: center;
+   background-color:#fff;
+   box-shadow: 0 10px 20px 0 rgba(0,0,0,.03);
+   border-radius: 10px;
+   margin: auto;
+   margin-top: 20px;
+  
+   
+}
+th
+{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 23px;
+    background-color:lightgoldenrodyellow;
+   
+}
+th,td
+{
+    border: 1px solid #f2f2f2;
+    padding: 8px 30px;
+    text-align: center;
+    color:black;
+}
+
+td
+{
+    font-size: 15px;
+}
+
+tr:hover
+{
+    background-color:#f5f5f5;
+}
+
+.trans
+ {
+     background-color:whitesmoke;
+     border:1px solid black;
+     
+     width: 1000px;
+     height: 300px;
+     float: center;
+     padding: 50px;
+     margin: 20px;
+     text-align: center;
+     border-radius: 3px 3px 3px 3px;
+     margin: -330px 50px 0 105px;
+ }
+ .trans h1{
+     margin-top: -30px;
+     font-size: 27px;
+     float: left;
+ }
+ 
+ .row {
+     float:left;
+     text-align: center;
+     margin-left: -190px;
+     margin-top: 10px;
+     
+ }
+ .pow{
+     float:left;
+     margin-top: 10px;
+     margin-left: 8px;
+ }
+ 
+ .address
+ {
+     margin-top: 100px;
+     margin-left: -52px;
+ }
+ addres
+ {float: left;}
+ 
+ .address addres row
+ {
+      float:left;
+     text-align: center;
+     margin-left: -990px;
+ }
+ .address pow
+ {
+     flaot:left;
+     margin-left: -98px;
+ }
+ 
+ .add
+ {margin-left:-90px;}
+ 
+ .radio
+ {
+     float: left;
+     margin: 10px 0 0 -160px;
+ }
+ .rado
+ {
+     margin-top: 100px;
+ }
+  
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px ;
+	color: orange;
+	border-radius: 5px;
+	margin-right: 450px;
+        margin-top: 70px;
+	border: none;
+        
+        
+}
+button:hover{
+	opacity: .7;
+        
+}
+.section tran
+{
+    float: left;
+}

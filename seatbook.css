@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding:0;
+ 
+}
+.header
+{
+    min-height: 100vh;
+    width:100%;
+    background-image:url("img/kis.jpg");
+    
+    
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+ul{
+    width: 100%;
+    background-color:rgba(255,255,255,.8);
+}
+
+
+.nav-links
+{
+    flex:1;
+    text-align:right;
+    
+}
+
+
+.logo{
+    
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;    
+    color:rgb(139,69,19);
+    margin-top: 22px;
+    margin-left: 20px;
+    float:left;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding:40px 26px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav-links ul li a
+{
+    color:black;
+    text-decoration: none;
+    font-size:18px;
+   
+   
+
+   
+}
+.nav-links ul li::after
+{
+    content:"";
+    width: 0%;
+    height: 2px;
+    background:red;
+    display:block;
+    margin: auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after
+{
+    width: 100%;
+}
+
+
+.signup-form{
+    height:500px;
+    width:600px;
+    margin-top:5%;
+    margin-left:25%;
+}
+.Signup-head{
+    padding:8px;
+}
+.signup-content .radio{
+    margin:10px 10px;
+}
+.signup-content2 .input{
+    width:400px;
+    padding:10px;
+    margin:10px;
+    color:#fff;
+}
+.signup-content2 .tarikh{
+    margin:10px;
+    padding:10px;
+    color:#fff;
+}
+.signup-content2  .person{
+    padding:10px;
+    margin:10px;
+    color:#fff;
+}
+.signup-content2 .travel{
+    margin:20px 20px;
+}
+.signup-content2 .travel2{
+    padding:5px;
+}
+.signup-content2 .submit-btn{
+    border:none;
+    outline:none;
+    width:200px;
+    padding:10px;
+    margin-left:200px;
+}
+
+    
+
+
+
